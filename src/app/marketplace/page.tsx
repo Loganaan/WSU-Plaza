@@ -1,22 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-interface Category {
-  id: number;
-  field: string;
-}
-
-interface Listing {
-  id: number;
-  title: string;
-  description: string | null;
-  price: number;
-  imageUrl: string | null;
-  status: string;
-  dateListed: string;
-  category: Category | null;
-}
+import type { Listing, Category } from "@/app/types/listing";
 
 export default function Marketplace() {
   const [listings, setListings] = useState<Listing[]>([]);
