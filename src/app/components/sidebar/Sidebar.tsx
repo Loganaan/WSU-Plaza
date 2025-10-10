@@ -49,7 +49,7 @@ export default function Sidebar() {
       {/* Bottom Controls */}
       <div className="space-y-4">
         <div className="flex items-center justify-between px-2">
-          <span>Light Mode</span>
+          <span>Dark Mode</span>
           <div className="relative w-10 h-5 bg-gray-700 rounded-full">
             <div className="absolute left-5 top-0.5 w-4 h-4 bg-yellow-400 rounded-full" />
           </div>
